@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0.069" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\JAVA-WORKSPACE\MY-WORKSPACE\webcalculator\target\test-classes;F:\JAVA-WORKSPACE\MY-WORKSPACE\webcalculator\target\classes;C:\Users\vishnu.prakash\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0\junit-jupiter-5.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.1.1\javax.ws.rs-api-2.1.1.jar;C:\Users\vishnu.prakash\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
+    <property name="sun.java.command" value="C:\Users\VISHNU~1.PRA\AppData\Local\Temp\surefire17141602157633468516\surefirebooter7213828665515681821.jar C:\Users\vishnu.prakash\AppData\Local\Temp\surefire17141602157633468516 2020-03-17T00-35-28_006-jvmRun1 surefire13674721138868559718tmp surefire_09402134702579966288tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\JAVA-WORKSPACE\MY-WORKSPACE\webcalculator\target\test-classes;F:\JAVA-WORKSPACE\MY-WORKSPACE\webcalculator\target\classes;C:\Users\vishnu.prakash\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0\junit-jupiter-5.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\vishnu.prakash\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.1.1\javax.ws.rs-api-2.1.1.jar;C:\Users\vishnu.prakash\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vishnu.prakash"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\JAVA-WORKSPACE\MY-WORKSPACE\webcalculator"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\VISHNU~1.PRA\AppData\Local\Temp\surefire17141602157633468516\surefirebooter7213828665515681821.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
+    <property name="user.name" value="vishnu.prakash"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\vishnu.prakash\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VISHNU~1.PRA\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="user.dir" value="F:\JAVA-WORKSPACE\MY-WORKSPACE\webcalculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:/Java/jdk1.8.0_92/bin/../jre/bin/server;E:/Java/jdk1.8.0_92/bin/../jre/bin;E:/Java/jdk1.8.0_92/bin/../jre/lib/amd64;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;E:\Java\jdk1.8.0_92\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;E:\Java\apache-maven-3.6.1\bin\;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Users\vishnu.prakash\AppData\Local\Microsoft\WindowsApps;C:\Users\vishnu.prakash\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishnu.prakash\AppData\Roaming\npm;C:\Program Files\Vim\vim82;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;E:\Java\eclipse;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.4+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testAddToSuccessForPositiveInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0.022"/>
+  <testcase name="testMultiplicationToSuccessForMixedInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0"/>
+  <testcase name="testAddToSuccessForNegativeInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0.005"/>
+  <testcase name="testSubstractToSuccessForPositiveInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0.001"/>
+  <testcase name="testDivisionToSuccessForMixedInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0"/>
+  <testcase name="testMultiplicationToSuccessForPositiveInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0.005"/>
+  <testcase name="testSubstractToSuccessForNegativeInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0.002"/>
+  <testcase name="testSubstractToSuccessForMixedInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0.002"/>
+  <testcase name="testDivisionToSuccessForPositiveInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0.001"/>
+  <testcase name="testMultiplicationToSuccessForNegativeInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0"/>
+  <testcase name="testDivisionToSuccessForNegativeInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0.001"/>
+  <testcase name="testAddToSuccessForMixedInput" classname="org.vishnu.webcalculator.core.CalculatorServiceImplTest" time="0"/>
+</testsuite>
