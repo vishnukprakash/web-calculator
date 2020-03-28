@@ -18,7 +18,7 @@ class CalculatorServiceImplTest {
 	 */
 	@Test
 	void testAddToSuccessForPositiveInput() {
-		Assertions.assertEquals(7, calculatorService.add(5, 2));
+		Assertions.assertEquals(3, calculatorService.add(5, 2));
 	}
 	
 	@Test
