@@ -86,4 +86,22 @@ class CalculatorServiceImplTest {
 	void testDivisionToSuccessForMixedInput() {
 		Assertions.assertEquals(-9, calculatorService.divide(-63, 7));
 	}
+	
+	/**
+	 * Test Modulus
+	 */
+	@Test
+	void testModulusToSuccessForPositiveInput() {
+		Assertions.assertEquals(0, calculatorService.modulus(64, 8));
+	}
+	
+	@Test
+	void testModulusToSuccessForNegativeInput() {
+		Assertions.assertEquals(-1, calculatorService.modulus(-11, -2));
+	}
+	
+	@Test
+	void testModulusToSuccessForMixedInput() {
+		Assertions.assertEquals(-2, calculatorService.modulus(-65, 7));
+	}
 }
