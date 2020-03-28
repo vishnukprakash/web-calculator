@@ -65,7 +65,7 @@ class CalculatorServiceImplTest {
 	
 	@Test
 	void testMultiplicationToSuccessForMixedInput() {
-		Assertions.assertEquals(-63, calculatorService.multiply(-7, 9));
+		Assertions.assertEquals(63, calculatorService.multiply(-7, 9));
 	}
 	
 	
