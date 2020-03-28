@@ -86,6 +86,8 @@ public class CalculatorRestEndPoint {
 		
 		LOGGER.info("modulus() invoked: [{}, {}]", request.getA(), request.getB());
 		
+		long result = calculatorService.modulus(request.getA(), request.getB());
+		
 		return Response.notAcceptable(Collections.emptyList()).build();
 	}
 }
