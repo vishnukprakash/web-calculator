@@ -18,4 +18,8 @@ public interface CalculatorService {
 	public default long divide(long a, long b) {
 		throw new UnsupportedOperationException(NOT_IMPLEMENTED);
 	}
+	
+	public default long modulus(long a, long b) {
+		throw new UnsupportedOperationException(NOT_IMPLEMENTED);
+	}
 }
