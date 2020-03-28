@@ -1,7 +1,5 @@
 package org.vishnu.webcalculator.webservice;
 
-import java.util.Collections;
-
 import javax.inject.Singleton;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -88,6 +86,6 @@ public class CalculatorRestEndPoint {
 		
 		long result = calculatorService.modulus(request.getA(), request.getB());
 		
-		return Response.notAcceptable(Collections.emptyList()).build();
+		return Response.ok(new ResponseData(result)).build();
 	}
 }
