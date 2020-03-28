@@ -75,4 +75,17 @@ public class CalculatorRestEndPoint {
 		long result = calculatorService.divide(request.getA(), request.getB());
 		return Response.ok(new ResponseData(result)).build();
 	}
+	
+	@Path("modulus")
+	@POST
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Response modulo(Request request) {
+		
+		LOGGER.info("modulus() invoked: [{}, {}]", request.getA(), request.getB());
+		
+		long result = calculatorService.modulus(request.getA(), request.getB());
+		
+		return Response.ok(new ResponseData(result)).build();
+	}
 }

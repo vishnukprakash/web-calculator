@@ -21,4 +21,9 @@ class CalculatorServiceImpl implements CalculatorService{
 	public long divide(long a, long b) {
 		return a/b;
 	}
+	
+	@Override
+	public long modulus(long a, long b) {
+		return a%b;
+	}
 }
